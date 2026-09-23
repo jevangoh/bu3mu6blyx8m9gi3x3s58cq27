@@ -6,7 +6,7 @@ name = "bu3mu6blyx8m9gi3x3s58cq27"
 dynamic = ["version"]
 
 requires-python = ">= 3.14"
-dependencies = ["opentelemetry-sdk>=1.20.0", "opentelemetry-exporter-otlp-proto-grpc>=1.20.0", "opentelemetry-instrumentation-logging==0.45b0"]
+dependencies = ["opentelemetry-sdk>=1.20.0", "opentelemetry-exporter-otlp-proto-grpc>=1.20.0", "opentelemetry-instrumentation-logging==0.45b0", "setuptools<80"]
 
 authors = [{name = "Jevan Goh", email = "javerngoh@gmail.com"}]
 
